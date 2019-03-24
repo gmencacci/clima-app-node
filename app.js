@@ -11,13 +11,6 @@ const argv = require('yargs').options({
 
 
 
-// clima.getClima(argv.direccion)
-//     .then(console.log)
-//     .catch(console.log);
-//argv.direccion
-
-
-
 const getInfo = async(dir) => {
     try {
         let coordenadas = await lugar.getLugarLatLng(dir);
